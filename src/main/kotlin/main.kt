@@ -29,79 +29,10 @@ fun main(args: Array<String>) {
     println(Solution7().reverse(1534236469))
     println(Solution8().myAtoi("-91283472332"))
     println(Solution9().isPalindrome(1000021))
+    println(Solution10().isMatch2("ab", ".*c"))
 }
 
-//fun reverseList(list: MutableList<Int>) {
-//    if (list.isEmpty()) {
-//        return
-//    }
-//    val item = list.removeFirst()
-//    reverseList(list)
-//    list.add(item)
-//}
-
-//fun isUnique(string: String): Boolean {
-//    val set = mutableSetOf<Char>()
-//    for (i in string.indices) {
-//        if (set.contains(string[i])) {
-//            return false
-//        }
-//        set.add(string[i])
-//    }
-//
-//    return true
-//}
-//
-//fun isUnique2(string: String): Boolean {
-//    var bitField = 0
-//    for (i in string.indices) {
-//        if (bitField and (string[i] - 'a') != 0) {
-//            return false
-//        }
-//        bitField = bitField or (string[i] - 'a')
-//    }
-//
-//    return true
-//}
-//
-//fun isUnique3(string: String): Boolean {
-//    val chars = string.toCharArray()
-//    chars.sort()
-//    for (i in 0 until chars.size - 1) {
-//        if (chars[i] == chars[i + 1]) {
-//            return false
-//        }
-//    }
-//    return true
-//}
-
-//fun isPermutation(string1: String, string2: String): Boolean {
-//    if (string1.length != string2.length) {
-//        return false
-//    }
-//    val chars1 = string1.toCharArray()
-//    chars1.sort() // n log(n)
-//    val chars2 = string2.toCharArray()
-//    chars2.sort() // m log(m)
-//    return chars1.contentEquals(chars2) // max(m, n)
-//    // nlog(n) + mlog(m) + max(m,n) = 2nlog(n) + n ~ nlog(n)
-//}
-//
-//fun isPermutation2(string1: String, string2: String): Boolean {
-//    if (string1.length != string2.length) {
-//        return false
-//    }
-//    val set1 = string1.toSet() // n
-//    for (element in string2) { // m
-//        if (set1.contains(element).not()) {
-//            return false
-//        }
-//    }
-//    // max(m,n)
-//    return true
-//}
-
-fun buildList1(): ListNode {
+private fun buildList1(): ListNode {
     val result = ListNode(9)
     var head: ListNode? = result
     for (i in 1..6) {
@@ -111,7 +42,7 @@ fun buildList1(): ListNode {
     return result
 }
 
-fun buildList2(): ListNode {
+private fun buildList2(): ListNode {
     val result = ListNode(9)
     var head: ListNode? = result
     for (i in 1..3) {
