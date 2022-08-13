@@ -1,0 +1,17 @@
+Gradle start parameters:
+  tasks = []
+  excluded tasks = []
+  current dir = /Volumes/TOSHIBA-AOSP/MISC/google
+  project properties args = {android.injected.build.model.only.advanced=true, android.injected.build.model.disable.src.download=true, org.gradle.kotlin.dsl.provider.cid=35062363693226, android.injected.invoked.from.ide=true, android.injected.build.model.only.versioned=3, android.injected.studio.version=2020.3.1 Final.221.5921.22, kotlin.mpp.enableIntransitiveMetadataConfiguration=true, idea.gradle.do.not.build.tasks=false, android.injected.build.model.only=true}
+  system properties args = {idea.active=true, java.awt.headless=true, idea.resolveSourceSetDependencies=true, idea.sync.active=true, idea.version=2022.1.3}
+
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+
+
+No Kotlin task was run
+Task ':prepareKotlinBuildScriptModel' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+

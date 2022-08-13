@@ -1,0 +1,90 @@
+Gradle start parameters:
+  tasks = [:classes]
+  excluded tasks = []
+  current dir = /Volumes/TOSHIBA-AOSP/MISC/google
+  project properties args = {}
+  system properties args = {idea.active=true, idea.version=2022.2}
+
+Time metrics:
+  Total Gradle task time: 17.05 s
+  Task action: 8.77 s
+    Backup output: 8.59 s
+    Connect to Kotlin daemon: 0.03 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 7.42 s
+      Incremental compilation in daemon: 7.38 s
+        Store build info: 0.00 s
+        Calculate initial dirty sources set: 0.36 s
+          Analyze dependency changes: 0.01 s
+          Analyze Java file changes: 0.00 s
+          Analyze Android layouts: 0.00 s
+          Detect removed classes: 0.03 s
+        Update caches: 2.17 s
+        Sources compilation round: 2.55 s
+        Write history file: 0.09 s
+  Compiler initialization time: 0.13 s
+  Compiler code analysis: 1.59 s
+  Compiler code generation: 0.43 s
+
+Size metrics:
+  Total size of the cache directory: 444.0 KB
+    ABI snapshot size: 484 B
+  Total compiler iteration: 1
+
+
+Total time for Kotlin tasks: 17.04 s (100.0 % of all tasks time)
+Time   |% of Kotlin time|Task          
+17.04 s|100.0 %         |:compileKotlin
+
+Task ':compileKotlin' finished in 17.04 s
+Compilation log for task ':compileKotlin':
+  Use module detection: false
+  Classpath changes info passed from Gradle task: ClasspathSnapshotDisabled
+  Last Kotlin Build info -- BuildInfo(startTS=1659115561777, dependencyToAbiSnapshot={})
+  Process SignatureChanged(fqName = Task1Kt)
+  Process SignatureChanged(fqName = .kotlin_module)
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/Solution.class on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/Task1Kt.class on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/META-INF/google.kotlin_module on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/ListNode.class on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Compile iteration:
+    src/main/kotlin/task1.kt <- was modified since last time
+Time metrics:
+  Total Gradle task time: 17.04 s
+  Task action: 8.77 s
+    Backup output: 8.59 s
+    Connect to Kotlin daemon: 0.03 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 7.42 s
+      Incremental compilation in daemon: 7.38 s
+        Store build info: 0.00 s
+        Calculate initial dirty sources set: 0.36 s
+          Analyze dependency changes: 0.01 s
+          Analyze Java file changes: 0.00 s
+          Analyze Android layouts: 0.00 s
+          Detect removed classes: 0.03 s
+        Update caches: 2.17 s
+        Sources compilation round: 2.55 s
+        Write history file: 0.09 s
+  Compiler initialization time: 0.13 s
+  Compiler code analysis: 1.59 s
+  Compiler code generation: 0.43 s
+Size metrics:
+  Total size of the cache directory: 444.0 KB
+    ABI snapshot size: 484 B
+  Total compiler iteration: 1
+
+Task ':processResources' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':compileJava' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':classes' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+

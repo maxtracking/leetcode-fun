@@ -1,0 +1,17 @@
+Gradle start parameters:
+  tasks = [wrapper]
+  excluded tasks = []
+  current dir = /Volumes/TOSHIBA-AOSP/MISC/google
+  project properties args = {}
+  system properties args = {idea.active=true, idea.version=2022.1.3}
+
+Time metrics:
+  Total Gradle task time: 0.08 s
+
+
+
+No Kotlin task was run
+Task ':wrapper' finished in 0.08 s
+Time metrics:
+  Total Gradle task time: 0.08 s
+

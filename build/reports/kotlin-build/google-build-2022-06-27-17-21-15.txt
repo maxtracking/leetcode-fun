@@ -1,0 +1,98 @@
+Gradle start parameters:
+  tasks = [:classes, :testClasses]
+  excluded tasks = []
+  current dir = /Volumes/TOSHIBA-AOSP/MISC/google
+  project properties args = {}
+  system properties args = {idea.active=true, idea.version=2022.1.3}
+
+Time metrics:
+  Total Gradle task time: 0.55 s
+  Task action: 0.01 s
+    Clear output: 0.00 s
+    Connect to Kotlin daemon: 0.03 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 0.41 s
+      Incremental compilation in daemon: 0.39 s
+        Store build info: 0.00 s
+        Clear outputs on rebuild: 0.00 s
+        Update caches: 0.03 s
+        Sources compilation round: 0.29 s
+        Write history file: 0.00 s
+  Compiler initialization time: 0.11 s
+  Compiler code analysis: 0.11 s
+  Compiler code generation: 0.03 s
+
+Size metrics:
+  Total size of the cache directory: 289.1 KB
+    ABI snapshot size: 49 B
+  Total compiler iteration: 1
+
+Build attributes:
+  REBUILD_REASON: Unknown Gradle changes
+
+Total time for Kotlin tasks: 0.54 s (98.7 % of all tasks time)
+Time  |% of Kotlin time|Task          
+0.54 s|100.0 %         |:compileKotlin
+
+Task ':compileKotlin' finished in 0.54 s
+Compilation log for task ':compileKotlin':
+  Use module detection: false
+  Non-incremental compilation will be performed: UNKNOWN_CHANGES_IN_GRADLE_INPUTS
+  Cleaning outputs on rebuild
+    Deleting contents of directory '/Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main'
+    Deleting contents of directory '/Volumes/TOSHIBA-AOSP/MISC/google/build/kotlin/compileKotlin/cacheable'
+    Deleting contents of directory '/Volumes/TOSHIBA-AOSP/MISC/google/build/kotlin/compileKotlin/local-state'
+  Non-incremental compilation will be performed: UNKNOWN_CHANGES_IN_GRADLE_INPUTS
+Time metrics:
+  Total Gradle task time: 0.54 s
+  Task action: 0.01 s
+    Clear output: 0.00 s
+    Connect to Kotlin daemon: 0.03 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 0.41 s
+      Incremental compilation in daemon: 0.39 s
+        Store build info: 0.00 s
+        Clear outputs on rebuild: 0.00 s
+        Update caches: 0.03 s
+        Sources compilation round: 0.29 s
+        Write history file: 0.00 s
+  Compiler initialization time: 0.11 s
+  Compiler code analysis: 0.11 s
+  Compiler code generation: 0.03 s
+Size metrics:
+  Total size of the cache directory: 289.1 KB
+    ABI snapshot size: 49 B
+  Total compiler iteration: 1
+Build attributes:
+  REBUILD_REASON: Unknown Gradle changes
+
+Task ':processResources' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':compileTestKotlin' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':processTestResources' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':compileJava' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':compileTestJava' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':classes' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':testClasses' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+

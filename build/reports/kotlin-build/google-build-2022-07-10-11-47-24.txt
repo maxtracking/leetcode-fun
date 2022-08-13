@@ -1,0 +1,89 @@
+Gradle start parameters:
+  tasks = [:classes]
+  excluded tasks = []
+  current dir = /Volumes/TOSHIBA-AOSP/MISC/google
+  project properties args = {}
+  system properties args = {idea.active=true, idea.version=2022.1.3}
+
+Time metrics:
+  Total Gradle task time: 7.91 s
+  Task action: 0.33 s
+    Backup output: 0.22 s
+    Connect to Kotlin daemon: 1.06 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 5.79 s
+      Incremental compilation in daemon: 5.08 s
+        Store build info: 0.01 s
+        Calculate initial dirty sources set: 0.87 s
+          Analyze dependency changes: 0.06 s
+          Analyze Java file changes: 0.00 s
+          Analyze Android layouts: 0.00 s
+          Detect removed classes: 0.80 s
+        Update caches: 0.12 s
+        Sources compilation round: 3.93 s
+        Write history file: 0.00 s
+  Compiler initialization time: 0.32 s
+  Compiler code analysis: 2.50 s
+  Compiler code generation: 0.76 s
+
+Size metrics:
+  Total size of the cache directory: 323.6 KB
+    ABI snapshot size: 186 B
+  Total compiler iteration: 1
+
+
+Total time for Kotlin tasks: 7.89 s (99.8 % of all tasks time)
+Time  |% of Kotlin time|Task          
+7.89 s|100.0 %         |:compileKotlin
+
+Task ':compileKotlin' finished in 7.89 s
+Compilation log for task ':compileKotlin':
+  Use module detection: false
+  Classpath changes info passed from Gradle task: ClasspathSnapshotDisabled
+  Last Kotlin Build info -- BuildInfo(startTS=1657043969144, dependencyToAbiSnapshot={})
+  Process SignatureChanged(fqName = Task1Kt)
+  Process SignatureChanged(fqName = .kotlin_module)
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/Task1Kt.class on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Deleting /Volumes/TOSHIBA-AOSP/MISC/google/build/classes/kotlin/main/META-INF/google.kotlin_module on clearing cache for /Volumes/TOSHIBA-AOSP/MISC/google/src/main/kotlin/task1.kt
+  Compile iteration:
+    src/main/kotlin/task1.kt <- was modified since last time
+  Process MembersChanged(fqName = <root>, names = [isUnique, isUnique2])
+Time metrics:
+  Total Gradle task time: 7.89 s
+  Task action: 0.33 s
+    Backup output: 0.22 s
+    Connect to Kotlin daemon: 1.06 s
+    Clear jar cache: 0.00 s
+    Calculate output size: 0.00 s
+    Run compilation: 5.79 s
+      Incremental compilation in daemon: 5.08 s
+        Store build info: 0.01 s
+        Calculate initial dirty sources set: 0.87 s
+          Analyze dependency changes: 0.06 s
+          Analyze Java file changes: 0.00 s
+          Analyze Android layouts: 0.00 s
+          Detect removed classes: 0.80 s
+        Update caches: 0.12 s
+        Sources compilation round: 3.93 s
+        Write history file: 0.00 s
+  Compiler initialization time: 0.32 s
+  Compiler code analysis: 2.50 s
+  Compiler code generation: 0.76 s
+Size metrics:
+  Total size of the cache directory: 323.6 KB
+    ABI snapshot size: 186 B
+  Total compiler iteration: 1
+
+Task ':processResources' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.01 s
+
+Task ':compileJava' was skipped: NO-SOURCE
+Time metrics:
+  Total Gradle task time: 0.00 s
+
+Task ':classes' finished in 0.00 s
+Time metrics:
+  Total Gradle task time: 0.00 s
+
