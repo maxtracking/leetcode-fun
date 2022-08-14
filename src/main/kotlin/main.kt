@@ -34,6 +34,7 @@ fun main(args: Array<String>) {
     println(Solution11().maxArea(intArrayOf(1,2,4,3)))
     println(Solution12().intToRoman(1994))
     println(Solution13().romanToInt("MCMXCIV"))
+    println(Solution15().threeSum(intArrayOf(-1,0,1,2,-1,-4)))
 }
 
 private fun buildList1(): ListNode {
