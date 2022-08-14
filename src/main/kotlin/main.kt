@@ -32,6 +32,7 @@ fun main(args: Array<String>) {
     println(Solution10().isMatch2("ab", ".*c"))
 //    println(Solution11().maxArea(intArrayOf(1,8,6,2,5,4,8,3,7)))
     println(Solution11().maxArea(intArrayOf(1,2,4,3)))
+    println(Solution12().intToRoman(1994))
 }
 
 private fun buildList1(): ListNode {
