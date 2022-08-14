@@ -33,12 +33,17 @@ class Solution10 {
         val m = s.length
         val n = p.length
         val M = Array(m + 1) { BooleanArray(n + 1) }
-        for (i in m downTo 0) for (j in n downTo 0)
-            if (j == n) M[i][j] = i == m
-            else if (j + 1 < n && p[j + 1] == '*')
-                M[i][j] = M[i][j + 2] || (i < m && match(s[i], p[j]) && M[i + 1][j])
-            else  // j == cols - 1 || j < cols - 1 && p.charAt(j + 1) != '*'
-                M[i][j] = i < m && match(s[i], p[j]) && M[i + 1][j + 1]
+        for (i in m downTo 0) {
+            for (j in n downTo 0) {
+                if (j == n) {
+                    M[i][j] = i == m
+                } else if (j + 1 < n && p[j + 1] == '*') {
+                    M[i][j] = M[i][j + 2] || (i < m && match(s[i], p[j]) && M[i + 1][j])
+                } else { // j == cols - 1 || j < cols - 1 && p.charAt(j + 1) != '*'
+                    M[i][j] = i < m && match(s[i], p[j]) && M[i + 1][j + 1]
+                }
+            }
+        }
         return M[0][0]
     }
 
@@ -60,7 +65,10 @@ class Solution10 {
                 if (p[j] == '*')
                     dp[i + 1][j + 1] =
                         dp[i + 1][j - 1] ||  // use '*' as 0 char, check back j-1(j-2 in p)
-                                (match(s[i], p[j - 1]) && dp[i][j + 1]) // use '*' to match 1 more char, i must match j-1, s[0,i-1] must match p[0,j-1]
+                                (match(
+                                    s[i],
+                                    p[j - 1]
+                                ) && dp[i][j + 1]) // use '*' to match 1 more char, i must match j-1, s[0,i-1] must match p[0,j-1]
                 else
                     dp[i + 1][j + 1] = match(s[i], p[j]) && dp[i][j] // normal match
             }

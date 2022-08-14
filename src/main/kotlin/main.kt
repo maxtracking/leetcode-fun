@@ -30,6 +30,8 @@ fun main(args: Array<String>) {
     println(Solution8().myAtoi("-91283472332"))
     println(Solution9().isPalindrome(1000021))
     println(Solution10().isMatch2("ab", ".*c"))
+//    println(Solution11().maxArea(intArrayOf(1,8,6,2,5,4,8,3,7)))
+    println(Solution11().maxArea(intArrayOf(1,2,4,3)))
 }
 
 private fun buildList1(): ListNode {
